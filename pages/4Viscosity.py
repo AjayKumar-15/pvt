@@ -100,7 +100,7 @@ st.write('''viscosity of oil is calculated above or below bubble point by differ
 ''')
 
 path = os.path.dirname(__file__)
-st.image(path+"/oil_viscosity.png",caption='Viscosity of oil')
+st.image(path+"/oil_viscosity.jpg",caption='Viscosity of oil')
 st.markdown('---')
 st.subheader('Input Data') 
 col1,col2,col3=st.columns(3)   
